@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #cebcbc;
+    padding:0 ;
+}
+header{
+     width:100%;
+    height:100px;
+    color:#d7a1f9 ;
+    display:flex;
+    justify-content: space-around;
+    background-color:  #c7a9a9;
+    border-bottom: 2px solid #c59393;
+    
+    }
+    .name{
+         font-size: 3.5em;
+         letter-spacing: 2px;
+         color:#461257;
+         top:0;
+         left: 0;
+         margin-left: 0;
+         align-items: left;
+        
+        }
+    #tagline{
+        text-decoration: none;
+        font-size: 30px;
+        left: 0;
+        color: #461257;
+            }
+     nav{
+        width:100%;
+        height:100px;
+        color:white ;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .menu a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 10px 20px;
+        font-size: 40px;
+        position:relative;
+        align-items: right;
+        aspect-ratio: 16/9;    
+            }
+    .menu a:before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:0%;
+        height: 100%;
+       border-bottom: 2px solid #461257;
+        transition: 0.4s linear;
+                 }
+    .menu a:hover:before{
+        width: 90%;
+                        }
+        
+                        
+.intro{
+     padding: 1.5rem;
+     font-size: 2.5rem;
+     top:20%;
+     left:5%;
+     position:absolute;
+     color:white;
+    align-items: left;
+     }
+.square {
+     width: 500px;
+     height: 500px;
+     top:20%;
+     right:5%;
+     position: absolute;
+     transform: translate(-50%);
+     background-color:white; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden; 
+     box-shadow: 10px rgb(94, 90, 90);
+    }
+.square img {
+     width: 100%; 
+     height: 100%;
+     object-fit: cover;
+           }
+h1{
+     text-align: center;
+     font-size: 2.5rem;
+     color: rgb(8, 8, 44);
+  }
+.education{
+    color:white ;
+    font-size: 2.5rem;
+    }
+   
+#skills {
+     background-color:#c7a9a9;
+     color:#d7a1f9 ;
+     padding: 50px;
+     margin-top: 25%;
+     text-align: center;
+     border-top: #c59393;
+    border-bottom: 2px solid #c59393;
+    border-top: 2px solid #c59393;
+        }
+            
+#skills ul {
+     list-style: none;
+     padding: 0;
+     text-align: center;
+           }
+#skills li {
+     display: inline-block;
+     margin: 10px;
+     font-size: 33px;
+     background:#b38f8f;
+     color: white;
+     padding: 25px 10px;
+     border-radius: 5px;
+          }
+        
+.projects-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 2rem;
+                }
+.project {
+    text-align: center;
+    background:#b38f8f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+            }
+.project img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    border-radius: 10px s;
+            }
+        
+#contact{
+    background-color:#c7a9a9;
+    border-top: 2px solid #c59393;
+    border-bottom: 2px solid #c59393;
+    text-align: center;
+    color:white;
+    margin-top: 3%;
+    font-size: 2.5rem;
+    justify-items: center;
+        }
+            
+    form {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        }
+    input, textarea {
+        width: 100%;
+        height: 30px;
+        padding: 6px;
+        margin: 6px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 1.5rem;
+                  }
+    textarea {
+        height: 120px;
+             }
+    button {
+        background-color: #b38f8f;
+        color: white;
+        padding: 12px;
+        border: none;
+        gap:1%;
+        cursor: pointer;
+        font-size: 2rem;
+        border-radius: 3px;
+           }
+    button:hover {
+      
+       background-color:#946767;;
+
+                }
+#end {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+    width: 100%;
+    }
+            
+
+
+
